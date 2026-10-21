@@ -1,0 +1,97 @@
+"1":
+  name: "Руна урона"
+  img: "bonus_1"
+  lore: "Руна, увеличивающая урон нажатием на 10%"
+  price: 500
+  type: "PERC_DAMAGE"
+  sale: true
+  info: "пусто"
+  action: "1"
+"2":
+  name: "Руна помощи"
+  img: "bonus_2"
+  lore: "Руна, увеличивающая урон союзников на 10%"
+  price: 2000
+  type: "PERC_DPS"
+  sale: true
+  info: "пусто"
+  action: "2"
+"3":
+  name: "Золотая капля"
+  img: "gold_drop"
+  lore: "Увеличивает получаемое золото на 10%"
+  price: 5000
+  type: "COINS"
+  sale: true
+  info: "пусто"
+  action: "3"
+"4":
+  name: "Пески времени"
+  img: "bonus_3"
+  lore: "Руна, увеличивающая урон ударом на 100"
+  price: 10000
+  type: "DAMAGE"
+  sale: true
+  info: "пусто"
+  action: "4"
+
+"5":
+  name: "Руна перерождения"
+  img: "bonus_3"
+  lore: "Руна, увеличивающая урон нажатием на 10"
+  price: 500
+  type: "DAMAGE"
+  sale: false
+  info: "Чтобы получить, переродитесь хотябы раз!"
+  action: "5"
+"6":
+  name: "Руна возрождения"
+  img: "bonus_3"
+  lore: "Руна, увеличивающая урон нажатием на 10"
+  price: 500
+  type: "DAMAGE"
+  sale: false
+  info: "Чтобы получить, переродитесь хотябы раз!"
+  action: "6"
+
+  
+"gold_2":
+  name: "Рука Мидаса"
+  img: "midas"
+  lore: "Увеличивает получаемое золото на 100%"
+  price: 50000
+  type: "COINS"
+  sale: true
+  info: "пусто"
+  action: "gold_2"
+"dps_1":
+  name: "Кукла ангела"
+  img: "angel_1"
+  lore: "Призывает помощника ангела наносящего 1000 урона в секунду."
+  price: 100000
+  type: "PERC_DPS"
+  sale: true
+  info: "пусто"
+  action: "dps_1"
+  
+
+
+"dps_perc_1":
+  name: "Горн усиления"
+  img: "horn"
+  lore: "+100% к урону помощников."
+  price: 500000
+  type: "PERC_DPS"
+  sale: true
+  info: "пусто"
+  action: "dps_perc_1"
+"dmg_perc_1":
+  name: "Рунный точильный камень"
+  img: "runic_sharp"
+  lore: "+100% к урону оружием."
+  price: 750000
+  type: "PERC_DAMAGE"
+  sale: true
+  info: "пусто"
+  action: "dmg_perc_1"
+

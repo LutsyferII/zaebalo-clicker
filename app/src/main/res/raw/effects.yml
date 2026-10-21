@@ -1,0 +1,30 @@
+coins_buff_1:
+  name: "Буст коинов"
+  lore: "+20% к получаемому золоту на 5 минут"
+  img: "eff_coins_1"
+  amount: 20
+  limit: 1
+  type: COINS
+dmg_buff_1:
+  name: "Баф дамага"
+  lore: "+200% к урону с тычки"
+  img: "eff_dmg_1"
+  amount: 20
+  limit: 4
+  type: DMG
+
+dps_buff_1:
+  name: "Баф дпса"
+  lore: "+200% к урону с союзников"
+  img: "eff_dps_1"
+  amount: 20
+  limit: 1
+  type: DPS
+
+dmg_buff_2:
+  name: "Баф дамага"
+  lore: "+200% к урону с тычки"
+  img: "eff_dmg_1"
+  amount: 50
+  limit: 4
+  type: DMG

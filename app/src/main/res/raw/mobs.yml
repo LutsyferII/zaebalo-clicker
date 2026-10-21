@@ -1,0 +1,231 @@
+#DUNG 1
+#1 level
+mob_1_1_0:
+  name: "Pizdarik"
+  img: "ai_doll_0"
+  hp: !!java.lang.Long 10
+  exp: 5
+  reward: !!java.lang.Long 1
+  weight: 50
+mob_1_1_1:
+  name: "Pizdarik 2"
+  img: "ai_doll_1"
+  hp: !!java.lang.Long 12
+  exp: 10
+  reward: !!java.lang.Long 1
+  weight: 50
+#2 level
+mob_1_2_0:
+  name: "Pizdarik"
+  img: "doll_0"
+  hp: !!java.lang.Long 20
+  exp: 10
+  reward: !!java.lang.Long 2
+  weight: 50
+mob_1_2_1:
+  name: "Pizdarik 2"
+  img: "doll_1"
+  hp: !!java.lang.Long 24
+  exp: 12
+  reward: !!java.lang.Long 3
+  weight: 50
+#DUNG 2
+#level 1
+mob_2_1_0:
+  name: "Солдат авали"
+  img: "avali_1"
+  hp: !!java.lang.Long 50
+  exp: 20
+  reward: !!java.lang.Long 8
+  weight: 30
+mob_2_1_1:
+  name: "Солдат авали"
+  img: "avali_2"
+  hp: !!java.lang.Long 55
+  exp: 22
+  reward: !!java.lang.Long 10
+  weight: 30
+mob_2_1_2:
+  name: "Солдат авали"
+  img: "avali_3"
+  hp: !!java.lang.Long 60
+  exp: 25
+  reward: !!java.lang.Long 12
+  weight: 30
+#level 2
+mob_2_2_0:
+  name: "Солдат авали"
+  img: "avali_4"
+  hp: !!java.lang.Long 100
+  exp: 45
+  reward: !!java.lang.Long 25
+  weight: 25
+mob_2_2_1:
+  name: "Солдат авали"
+  img: "avali_5"
+  hp: !!java.lang.Long 110
+  exp: 50
+  reward: !!java.lang.Long 28
+  weight: 25
+mob_2_2_2:
+  name: "Солдат авали"
+  img: "avali_6"
+  hp: !!java.lang.Long 115
+  exp: 55
+  reward: !!java.lang.Long 30
+  weight: 25
+mob_2_2_3:
+  name: "Солдат авали"
+  img: "avali_7"
+  hp: !!java.lang.Long 120
+  exp: 60
+  reward: !!java.lang.Long 33
+  weight: 25
+#level 3
+mob_2_3_0:
+  name: "Сержант авали"
+  img: "avali_8"
+  hp: !!java.lang.Long 240
+  exp: 100
+  reward: !!java.lang.Long 100
+  weight: 30
+mob_2_3_1:
+  name: "Сержант авали"
+  img: "avali_9"
+  hp: !!java.lang.Long 250
+  exp: 110
+  reward: !!java.lang.Long 110
+  weight: 30
+mob_2_3_2:
+  name: "Сержант авали"
+  img: "avali_10"
+  hp: !!java.lang.Long 255
+  exp: 115
+  reward: !!java.lang.Long 120
+  weight: 30
+#level 4
+mob_2_4_0:
+  name: "Офицер авали"
+  img: "avali_11"
+  hp: !!java.lang.Long 1000
+  exp: 250
+  reward: !!java.lang.Long 300
+  weight: 25
+mob_2_4_1:
+  name: "Офицер авали"
+  img: "avali_12"
+  hp: !!java.lang.Long 1100
+  exp: 260
+  reward: !!java.lang.Long 320
+  weight: 25
+mob_2_4_2:
+  name: "Офицер авали"
+  img: "avali_13"
+  hp: !!java.lang.Long 1200
+  exp: 275
+  reward: !!java.lang.Long 330
+  weight: 25
+mob_2_4_3:
+  name: "Офицер авали"
+  img: "avali_14"
+  hp: !!java.lang.Long 1250
+  exp: 280
+  reward: !!java.lang.Long 350
+  weight: 25
+#DUNG 3
+#level 1
+mob_3_1_0:
+  name: "Ящерица"
+  img: "lizard_1"
+  hp: !!java.lang.Long 5000
+  exp: 700
+  reward: !!java.lang.Long 800
+  weight: 30
+mob_3_1_1:
+  name: "Ящерица"
+  img: "lizard_2"
+  hp: !!java.lang.Long 5500
+  exp: 750
+  reward: !!java.lang.Long 900
+  weight: 30
+mob_3_1_2:
+  name: "Ящерица"
+  img: "lizard_3"
+  hp: !!java.lang.Long 5900
+  exp: 800
+  reward: !!java.lang.Long 1000
+  weight: 30
+#level 2
+mob_3_2_0:
+  name: "Змеюка"
+  img: "snake_1"
+  hp: !!java.lang.Long 12000
+  exp: 1500
+  reward: !!java.lang.Long 5000
+  weight: 30
+  drop:
+    - "item{id=first} 1-2 20"
+    - "item{id=p_dps_1} 1-2 20"
+    - "item{id=p_coin_1} 1-2 20"
+    - "item{id=p_dmg_2} 1-2 5"
+mob_3_2_1:
+  name: "Змеюка"
+  img: "snake_2"
+  hp: !!java.lang.Long 13000
+  exp: 1600
+  reward: !!java.lang.Long 5500
+  weight: 30
+  drop:
+    - "item{id=first} 1-2 20"
+    - "item{id=p_dps_1} 1-2 20"
+    - "item{id=p_coin_1} 1-2 20"
+    - "item{id=p_dmg_2} 1-2 5"
+mob_3_2_2:
+  name: "Змеюка"
+  img: "snake_3"
+  hp: !!java.lang.Long 14000
+  exp: 1700
+  reward: !!java.lang.Long 6000
+  weight: 30
+  drop:
+    - "item{id=first} 1-2 20"
+    - "item{id=p_dps_1} 1-2 20"
+    - "item{id=p_coin_1} 1-2 20"
+    - "item{id=p_dmg_2} 1-2 5"
+#level 3
+mob_3_3_0:
+  name: "Рептилоид"
+  img: "rept_1"
+  hp: !!java.lang.Long 40000
+  exp: 3000
+  reward: !!java.lang.Long 20000
+  weight: 30
+  drop:
+    - "item{id=first} 1-2 25"
+    - "item{id=p_dps_1} 1-2 25"
+    - "item{id=p_coin_1} 1-2 25"
+    - "item{id=p_dmg_2} 1-2 8"
+mob_3_3_1:
+  name: "Рептилоид"
+  img: "rept_2"
+  hp: !!java.lang.Long 41000
+  exp: 3200
+  reward: !!java.lang.Long 21000
+  weight: 30
+  drop:
+    - "item{id=first} 1-2 25"
+    - "item{id=p_dps_1} 1-2 25"
+    - "item{id=p_coin_1} 1-2 25"
+    - "item{id=p_dmg_2} 1-2 8"
+mob_3_3_2:
+  name: "Рептилоид"
+  img: "rept_3"
+  hp: !!java.lang.Long 42000
+  exp: 3500
+  reward: !!java.lang.Long 22000
+  weight: 30
+  drop:
+    - "item{id=first} 1-2 25"
+    - "item{id=p_dps_1} 1-2 25"
+    - "item{id=p_coin_1} 1-2 25"
+    - "item{id=p_dmg_2} 1-2 8"

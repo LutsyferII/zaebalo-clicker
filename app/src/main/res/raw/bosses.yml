@@ -1,0 +1,67 @@
+boss_1_1:
+  name: "Pizdarik Boss"
+  img: "ai_doll_2"
+  hp: !!java.lang.Long 30
+  exp: 1
+  reward: !!java.lang.Long 10
+  time: !!java.lang.Long 10
+boss_1_2:
+  name: "Pizdarik Boss 2"
+  img: "doll_2"
+  hp: !!java.lang.Long 60
+  exp: 1
+  reward: !!java.lang.Long 50
+  time: !!java.lang.Long 30
+
+#DUNG 2
+boss_2_1:
+  name: "Полководец Авал"
+  img: "avali_boss_1"
+  hp: !!java.lang.Long 150
+  exp: 1
+  reward: !!java.lang.Long 250
+  time: !!java.lang.Long 30
+boss_2_2:
+  name: "Генерал Авал"
+  img: "avali_boss_2"
+  hp: !!java.lang.Long 1000
+  exp: 1
+  reward: !!java.lang.Long 1000
+  time: !!java.lang.Long 45
+boss_2_3:
+  name: "Великий Авал"
+  img: "avali_boss_3"
+  hp: !!java.lang.Long 5500
+  exp: 1
+  reward: !!java.lang.Long 6000
+  time: !!java.lang.Long 45
+boss_2_4:
+  name: "Божество Авали"
+  img: "avali_boss_4"
+  hp: !!java.lang.Long 25000
+  exp: 1
+  reward: !!java.lang.Long 20000
+  time: !!java.lang.Long 45
+
+#DUNG 3
+boss_3_1:
+  name: "Ребенок Дракона"
+  img: "lizard_boss"
+  hp: !!java.lang.Long 100000
+  exp: 1
+  reward: !!java.lang.Long 100000
+  time: !!java.lang.Long 45
+boss_3_2:
+  name: "Дракон"
+  img: "snake_boss"
+  hp: !!java.lang.Long 400000
+  exp: 1
+  reward: !!java.lang.Long 500000
+  time: !!java.lang.Long 45
+boss_3_3:
+  name: "Марк Цукерберг"
+  img: "rept_boss"
+  hp: !!java.lang.Long 2000000
+  exp: 1
+  reward: !!java.lang.Long 3000000
+  time: !!java.lang.Long 45

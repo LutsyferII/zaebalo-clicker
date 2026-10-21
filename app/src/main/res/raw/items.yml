@@ -1,0 +1,41 @@
+first:
+  name: "Зелье урона"
+  img: "potion_1"
+  limit: 1
+  rarity: "COMMON"
+  lore: "Фиговина"
+  type: DEFAULT
+  effect: "dmg_buff_1"
+  eff_time: 30
+p_dps_1:
+  name: "Зелье дпс"
+  img: "potion_2"
+  limit: 1
+  rarity: "COMMON"
+  lore: "Фиговина"
+  type: DEFAULT
+  effect: "dps_buff_1"
+  eff_time: 30
+p_coin_1:
+  name: "Зелье монет"
+  img: "potion_3"
+  limit: 1
+  rarity: "COMMON"
+  lore: "Фиговина"
+  type: DEFAULT
+  effect: "coins_buff_1"
+  eff_time: 30
+p_dmg_2:
+  name: "Зелье урона 2"
+  img: "potion_4"
+  limit: 1
+  rarity: "UNCOMMON"
+  lore: "Фиговина"
+  type: DEFAULT
+  effect: "dmg_buff_2"
+  eff_time: 30
+
+id:
+  name: "Название"
+  img: "image_id"
+  lore: "описание"
